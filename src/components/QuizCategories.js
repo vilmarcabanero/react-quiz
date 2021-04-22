@@ -23,7 +23,7 @@ const QuizCategories = () => {
 		fetchQuizCategories()
 	}, [])
 
-	console.log({ categories })
+	// console.log({ categories })
 	return <div>Quiz Categories</div>
 }
 
