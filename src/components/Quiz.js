@@ -26,7 +26,8 @@ const Quiz = () => {
 
 	console.log({ categories });
 
-	return <div>{results[0].question}</div>;
+	// return <div>{parse(results[0].question)}</div>;
+	return <div>Hello</div>
 };
 
 export default Quiz;
