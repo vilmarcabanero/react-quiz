@@ -1,13 +1,16 @@
-import {M} from '../Math/Math'
+// `\\(  \\frac{x+y}{x-y}  \\)`
 
-let pi = `${<M m='\\pi'/>}`
+let pi = `\\(\\pi\\)`
+let theta = `\\(\\theta\\)`
+let fraction = `\\(  \\frac{x+y}{x-y}  \\)`
+
 let area = `\\(A = \\pi r^2\\)`
 export const results = [
 	{
 		category: `Science: Mathematics`,
 		type: 'multiple',
 		difficulty: 'easy',
-		question: `What is the area of the circle? ${area} <br> What is the symbol of pi? ${pi}`,
+		question: `What is the area of the circle? ${area} <br> <h1>What is the symbol of pi? ${pi} </h1>  theta = ${theta} <br> <h2> ${fraction} <h2/>`,
 		correct_answer: '40',
 		incorrect_answers: ['60', '15', '90'],
 	},
